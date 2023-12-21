@@ -1,0 +1,135 @@
+#Main{
+    margin-top: 90px;
+    padding-bottom: 78px;
+    padding-left: 134px;
+    padding-right: 134px;
+    background-color: #ffffff;
+}
+#Main h3{
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.carousel-container {
+    width: 35%; 
+}
+.gach-ngang {
+    text-decoration: line-through;
+}
+.context{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.item-infomation{
+    color: red;
+}
+.item2{
+    color: green;
+    margin-top: 60px;
+    padding: 20px;
+    margin-top: -60px;
+    border: 1px solid rgb(241, 241, 241);
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+    transition: box-shadow 0.3s;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.context .item{
+    margin-right: 100px;
+    margin-top: -50px;
+}
+.t512{
+    background-color: brown;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.gop{
+    font-size: 30px;
+    padding: 4px 50px;
+}
+.gops{
+    padding: 10px 50px;
+}
+.gopss{
+    padding: 10px 70px;
+}
+.t256{
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: aqua;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.t512:hover{
+    background-color: rgb(133, 25, 25);
+}
+.t256:hover{
+    background-color: rgb(41, 212, 212);
+}
+.address{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(241, 241, 241);
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+    transition: box-shadow 0.3s;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.carousel-container img{
+    padding-left: 20px;
+    outline: none;
+}
+.address .item{
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-right: 240px;
+    
+}
+.credit{
+    margin-top: 10px;
+}
+.address .item1{
+    margin-top: 50px;
+    
+}
+.introduce- button{
+    border: none;
+    outline: none;
+    margin-top: 100px;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+    border-radius: 20px;
+    position: 0.4s;
+    transition: background-position 0.3s;
+    background-image: linear-gradient(to right, orange, #e6e2e2);
+    background-size: 200% 100%;
+    background-position: -100%;
+    padding: 10px;
+}
+.introduce-  button:hover{
+    background-position: 100%;
+}

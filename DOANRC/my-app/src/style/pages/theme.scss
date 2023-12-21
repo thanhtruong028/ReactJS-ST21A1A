@@ -1,0 +1,10 @@
+$theme-colors: (
+    "header__top": rgb(204, 204, 204),
+    "main": rgb(206, 206, 206),
+);
+
+.main {
+    background-image: map-get($theme-colors, "main");
+    background-size: cover;
+    /* Other CSS styles for the .main element */
+}
